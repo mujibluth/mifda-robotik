@@ -27,7 +27,7 @@ void setup() {
   pinMode(GREEN_PIN, INPUT);
 
   // Mulai komunikasi dengan LCD
-  lcd.begin();
+  lcd.begin(16, 2);
   lcd.backlight();
 
   // Attach servo ke pin
